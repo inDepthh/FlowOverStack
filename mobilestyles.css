@@ -1,0 +1,288 @@
+body {
+  background: black;
+}
+
+.logo {
+    position: relative;
+    float: left;
+    bottom: 2px;
+    z-index: 1;
+}
+
+#btnAsk {
+  position: relative;
+  float: left;
+  font-size: 20px;
+  background-color: #3ab4c9;
+  border-radius: 6px;
+  border: #3ab4c9;
+  width: 175px;
+  bottom: 7px;
+  height: 35px;
+  color: white;
+  top: 5px;
+}
+
+.answerPageTitle {
+  position: relative;
+  top: 25px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#feedbackFormContainer {
+  position: relative;
+  background-color: #3d4244;
+  width: 820px;
+  height: 300px;
+  margin: auto;
+  top: 40px;
+}
+
+.sendFeedbackTextareaContainer {
+  position: relative;
+  left: 17px;
+  top: 80px;
+}
+
+.aboutContainer {
+  position: relative;
+  background-color: #3d4244;
+  width: 900px;
+  height: 325px;
+  margin: auto;
+  top: 40px;
+}
+
+.aboutContainer h1 {
+  position: relative;
+  margin:auto;
+  left: 320px;
+}
+
+.aboutContainer p {
+  color: white;
+  position: relative;
+  top: 50px;
+  margin-left: 40px;
+  margin-right: 50px;
+  font-size: 23px;
+}
+
+.SendFeedbackSubmit {
+  left: 305px;
+  top: 120px;
+  position: relative;
+  background-color: #05c3ff;
+  border-radius: 6px;
+  font-size: 20px;
+  font-family: arial;
+  border: #3ab4c9;
+  color: white;
+  width: 200px;
+  height: 40px;
+}
+
+.feedbackTextareaLabel {
+  position: relative;
+  color: white;
+  bottom: 115px;
+  left: 72px;
+}
+
+#answerQuestionContainer {
+  position: relative;
+  margin:auto;
+  background-color: #3d4244;
+  width: 900px;
+  height: 1300px;
+  top: 8px;
+  color: white;
+}
+
+.AnswerQuestionSubmit {
+  position: relative;
+  left: 275px;
+  top: 50px;
+  background-color: #05c3ff;
+  border-radius: 6px;
+  font-size: 20px;
+  font-family: arial;
+  border: #3ab4c9;
+  color: white;
+  width: 200px;
+  height: 40px;
+}
+
+.answers {
+  position: relative;
+  margin: auto;
+  font-size: 30px;
+  height: 700px;
+  list-style-type: none;
+  overflow: auto;
+}
+
+.answerFetched {
+  text-decoration: none;
+}
+
+.createAskQuestionH1 {
+  position: relative;
+  left: 215px;
+}
+
+.askQuestionSubmit {
+  position: relative;
+  left: 140px;
+  top: 35px;
+  background-color: #05c3ff;
+  border-radius: 6px;
+  font-size: 20px;
+  font-family: arial;
+  border: #3ab4c9;
+  color: white;
+  width: 160px;
+  height: 40px;
+}
+
+#askQuestionCancel {
+  position: relative;
+  left: 200px;
+  top: 35px;
+  background-color: #05c3ff;
+  border-radius: 6px;
+  font-size: 20px;
+  font-family: arial;
+  border: #3ab4c9;
+  color: white;
+  width: 160px;
+  height: 40px;
+}
+
+.dialog {
+  position: absolute;
+  top: 50px;
+}
+
+.questionForm {
+  position: relative;
+  left: 70px;
+}
+
+.titleContainer {
+  position: relative;
+  bottom: 5px;
+  right: 36px;
+}
+
+.askQuestionTitleInput {
+  width: 629px;
+  position: relative;
+}
+
+.askQuestionTitleLabel {
+  position: relative;
+  bottom: 20px;
+  left: 40px;
+}
+
+.askQuestionDescriptionLabel {
+  position: relative;
+  left: 4px;
+}
+
+#dialogContainer {
+  position: relative;
+  margin:auto;
+  background-color: #3d4244;
+  width: 810px;
+  height: 425px;
+  left: 5px;
+  display: none;
+  top: 10px;
+  color: white;
+}
+
+#questionsContainer {
+  background-color: #3d4244;
+  width: 810px;
+  margin: auto;
+  position: relative;
+  bottom: 38px;
+  left: 5px;
+  top: 10px;
+}
+
+.questions {
+  position: relative;
+  font-size: 30px;
+  overflow: auto;
+  height: 1000px;
+}
+
+.questions li {
+    list-style-type: none;
+    color: #3ab4c9;
+}
+
+.questions a {
+  text-decoration: none;
+}
+
+h1 {
+  position: relative;
+  font-size: 60px;
+  color: white;
+  left: 275px;
+  top: 20px;
+}
+
+li {
+  position: relative;
+  color: white;
+
+}
+
+.container {
+  position: relative;
+  top: 1px;
+  left: 10px;
+}
+
+.menu {
+  overflow: hidden;
+  background-color: #3d4244;
+  height: 110px;
+  left: 10px;
+}
+
+.menu a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu a.hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.menu a.active {
+  background-color: #3ab4c9;
+  color: white;
+  position: relative;
+  left: 5px;
+}
+
+.search {
+  height: 25px;
+  width: 800px;
+  float: left;
+  left: 70px;
+  top: 2px;
+position: relative;
+}
